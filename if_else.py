@@ -47,7 +47,7 @@ squares = [i**2 for i in range(1,11)]
 print(squares)
 
 
-#Add numbers until sum reaches 100.
+#Add numbers until sum reaches 100
 total_sum = 0
 current_number = 1
 while total_sum < 100:

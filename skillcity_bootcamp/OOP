@@ -1,0 +1,126 @@
+"""def main():
+    print_square(3)
+
+def print_square(size):
+    for i in range(size):
+        print("#" * size)
+            
+main()
+
+
+
+x = int(input("what's x?"))
+print(f"x is {x}
+
+
+
+try:
+    x = int(input("what's x?"))
+    print(f"x is {x}")
+except ValueError:
+    print("x is not an integer")
+
+
+
+try:
+    x = int(input("what's x?"))
+except ValueError:
+    print("x is not an integer")
+else:
+    print(f"x is {x}")
+
+
+
+#A loop with a breakout but continuous
+while True:
+    try:
+        x = int(input("what's x?"))
+    except ValueError:
+        print("x is not an integer")
+    else:
+        break
+print(f"x is {x}") 
+
+#same as the upper one 
+def main():
+    x = get_int()
+    print(f"x is {x}")
+
+def get_int():
+    while True:
+        try:
+            x = int(input("what's x? "))
+        except ValueError:
+            print("x is not an integer")
+        else:
+            break
+    return x
+
+main()
+
+
+
+#A loop with a breakout but continuous until an integer is provided
+while True:
+    try:
+        x = int(input("what's x?"))
+        break
+    except ValueError:
+        print("x is not an integer")
+    
+print(f"x is {x}")
+
+
+
+#Random function
+import random
+
+coin = random.choice(["heads","tails"])
+print(coin)
+
+
+
+import random
+
+cards = ["king","jack","queen"]
+random.shuffle(cards)
+for card in cards:
+    print(card)
+
+
+
+import statistics
+print(statistics.mean([100,90]))
+
+
+#This ones are  not working
+import sys
+try:
+    print("hello, my name is", sys.argv[1])
+except IndexError:
+    print("Too few arguments")
+
+    
+
+import sys
+input("")
+if len(sys.argv) < 2:
+    print("Too few arguments")
+elif len(sys.argv) > 2:
+    print("Too many arguments")
+else:
+    print("hello, my name is", sys.argv[1])
+
+
+
+import sys
+if len(sys.argv) < 2:
+    sys.exit("Too few arguments")
+elif len(sys.argv) > 2:
+    sys.exit("Too many arguments")
+print("hello, my name is", sys.argv[1])"""
+
+
+
+name = input("what's your name? ")
+print(f"hello, {name}")
